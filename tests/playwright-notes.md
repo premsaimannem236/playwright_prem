@@ -34,9 +34,9 @@ Runs all Playwright test files inside the tests folder.
 
 ## Command
 
-'''bash
+```bash
 npx Playwright test --workers 3
-'''
+```
 
 ## Explanation
 

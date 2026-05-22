@@ -77,7 +77,7 @@ Runs only the selected Multiple test file.
 ## Command
 
 ```bash
-npx playright test -g "check title"
+npx playwright test -g "check title"
 ```
 
 ## Explanation
@@ -91,7 +91,7 @@ Runs test with the title
 ## Command
 
 ```bash
-npx playright test --project=chromium
+npx playwright test --project=chromium
 ```
 
 ## Explain

@@ -100,6 +100,18 @@ Runs on specfic browser
 
 ---
 
+# Runs Specfic browser and specfic File
+
+## Command
+
+```bash
+npx playwright test tests/example.spec.ts --project=chromium
+```
+
+## Explain
+
+Runs on specfic browser
+
 # Debug a Code
 
 ## Command
@@ -139,5 +151,19 @@ npx playwright test example.spec.ts:12 --debug
 ## Explain
 
 It Debug the specific from specfic line to be started debug
+
+---
+
+# Let's Start
+
+# Simple Playwright Synatx
+
+```bash
+import {test,expect} from "@playwright/test";
+
+test("title", ()=>{
+
+})
+```
 
 ---

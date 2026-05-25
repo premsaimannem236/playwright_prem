@@ -167,3 +167,103 @@ test("title", ()=>{
 ```
 
 ---
+
+# Playwright Locators
+
+## getByRole()
+
+### Command
+
+```typescript
+page.getByRole("button", { name: "Login" });
+```
+
+### Explain
+
+It locates elements using explicit and implicit accessibility attributes.
+
+---
+
+## getByText()
+
+### Command
+
+```typescript
+page.getByText("Welcome");
+```
+
+### Explain
+
+It locates elements using text content.
+
+---
+
+## getByLabel()
+
+### Command
+
+```typescript
+page.getByLabel("Email");
+```
+
+### Explain
+
+It locates a form control using associated label text.
+
+---
+
+## getByPlaceholder()
+
+### Command
+
+```typescript
+page.getByPlaceholder("Enter email");
+```
+
+### Explain
+
+It locates an input field using placeholder text.
+
+---
+
+## getByAltText()
+
+### Command
+
+```typescript
+page.getByAltText("Company Logo");
+```
+
+### Explain
+
+It locates an element, usually image, using alt text.
+
+---
+
+## getByTitle()
+
+### Command
+
+```typescript
+page.getByTitle("Search");
+```
+
+### Explain
+
+It locates an element using title attribute.
+
+---
+
+## getByTestId()
+
+### Command
+
+```typescript
+page.getByTestId("login-button");
+```
+
+### Explain
+
+It locates an element using data-testid attribute.
+
+---
